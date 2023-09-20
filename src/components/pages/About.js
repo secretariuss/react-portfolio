@@ -5,12 +5,13 @@ export default function About() {
     <div>
       <h1>About Page</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Hi there! I’m Alex, a full stack web developer with over 5 years of experience in creating beautiful and functional web applications.
+        I have a strong background in both front-end and back-end development using technologies such as HTML, CSS, JavaScript, React, Node.js, MongoDB, etc.
+        I love learning new things and exploring new challenges in web development
+        You can check out my portfolio website [here] to see more of my work. 
+        I’m always open to new opportunities and collaborations in web development.
+         Feel free to contact me [here] if you have any questions or suggestions. 
+         Thank you for your time and attention!
       </p>
     </div>
   );
