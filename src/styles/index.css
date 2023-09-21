@@ -1706,3 +1706,37 @@ label form [type='radio'] {
     align-content: center;
   }
 }
+
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+:root {
+  --black: #3e3d32;
+  --white: #f8f8f2;
+  --yellow: #e6db74;
+  --green: #a6e22e;
+  --orange: #fd971f;
+  --purple: #ae81ff;
+  --pink: #fd5ff0;
+  --blue: #66d9ef;
+  --red: #f92672;
+}
+
+html,
+body,
+html * {
+  font-family: 'Audiowide', sans-serif;
+}
+
+body {
+  background-color: var(--black);
+}
+
+footer {
+  position: fixed;
+  background-color: #000119;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px;
+  text-align: center;
+}
