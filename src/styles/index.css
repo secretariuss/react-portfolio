@@ -1719,6 +1719,13 @@ label form [type='radio'] {
   --pink: #fd5ff0;
   --blue: #66d9ef;
   --red: #f92672;
+  --img1: url('../../assets/images/pass_gen.PNG') no-repeat center center/cover;
+  --img2: url('../../assets/images/su_set.PNG') no-repeat center center/cover;
+  --img3: url('../../assets/images/agor.jpg') no-repeat center center/cover;
+  --img4: url('../../assets/images/note_taker.jpg') no-repeat center center/cover;
+  --img5: url('../../assets/images/cod_qise.jpg') no-repeat center center/cover;
+  --img6: url('../../assets/images/tech_bl.jpg') no-repeat center center/cover;
+  --img7: url('../../assets/images/weath.jpg') no-repeat center center/cover;
 }
 
 html,

@@ -1,35 +1,38 @@
 const data = [
     {
-        imgSrc: "../assets/images/pass_gen.png",
-        titleText: ["Password Generator"],
-        titleColor: "var(--green)",
-        description: "HTML/CSS",
-        descriptionColor: "var(--orange)",
+        id: 1,
+        imgSrc: "var(--img1)",
         url: "https://secretariuss.github.io/password-generator/", 
-        id: 1
     },
     {
-        imgSrc: "https://placeimg.com/640/480/nature",
-        titleText: "One",
-        description: "I'm a card and I'm first",
-        url: "https://chriswrightdesign.com/experiments/using-flexbox-today/#card-layout", 
-        id: 2
+        id: 2,
+        imgSrc: "var(--img2)",
+        url: "https://zoeyyanling.github.io/sunrise-and-sunset/", 
     },
     {
-        imgSrc: "https://placeimg.com/640/480/nature",
-        titleText: "One",
-        description: "I'm a card and I'm first",
-        url: "https://chriswrightdesign.com/experiments/using-flexbox-today/#card-layout", 
-        id: 3
+        id: 3,
+        imgSrc: "var(--img3)",
+        url: "https://safe-gorge-84549-1446002e9f14.herokuapp.com/login", 
     },
     {
-        imgSrc: "../assets/images/pass_gen.png",
-        titleText: ["Password Generator"],
-        titleColor: "var(--green)",
-        description: "HTML/CSS",
-        descriptionColor: "var(--orange)",
-        url: "https://secretariuss.github.io/password-generator/", 
-        id: 4
+        id: 4,
+        imgSrc: "var(--img4)",
+        url: "https://rocky-anchorage-53241-2d25524652bb.herokuapp.com/notes", 
+    },
+    {
+        id: 5,
+        imgSrc: "var(--img5)",
+        url: "https://secretariuss.github.io/coding-quiz/", 
+    },
+    {
+        id: 6,
+        imgSrc: "var(--img6)",
+        url: "https://github.com/secretariuss/the-tech-blog", 
+    },
+    {
+        id: 7,
+        imgSrc: "var(--img7)",
+        url: "https://secretariuss.github.io/weather-dashboard/", 
     },
   ];
   

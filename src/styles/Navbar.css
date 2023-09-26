@@ -52,9 +52,6 @@ nav a:hover {
   -webkit-text-stroke-width: 3px;
 }
 
- /* 
-  Extra small devices (phones, 600px and down) 
-*/
 @media only screen and (max-width: 600px) {
   nav {
     flex-direction: column;
