@@ -1,21 +1,33 @@
 import React from 'react';
+import '../../styles/Resume.css';
 
 export default function Resume() {
   return (
     <div>
-      <h1>Resume Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+      <div>
+        <h1 className='resume-title'>Resume</h1>
+      </div>
+      <div className='wrapper-resume-text'>
+        <p className='resume-text'><pre>{`
+          Motivated well trained junior full stack Web Developer graduate 
+          from UNB bootcamp is looking for a development position to expand 
+          knowledge and skills towards working in a collaborative environment. 
+          Adapt at solving various technical problems with practical solutions 
+          using various types of computer software. Ability and willingness to 
+          innovate and learn new technologies, quick learner passionate 
+          about development.
+
+          Skills
+          •	JavaScript, NodeJS, HTML/CSS,
+          •	SQL, MySQL
+          •	Git/GitHub, Bootstrap, React
+          •	MongoDB, NoSQL, Visual Studio
+          •	Time Management
+          •	Project Scope Analysis
+
+          UNB Coding Boot Camp Full Stack Web Development - October2023`}</pre>
+        </p>
+      </div>
     </div>
   );
 }

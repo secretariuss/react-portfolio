@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { checkPassword, validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../../utils/helpers';
+import '../../styles/Contact.css';
 
 export default function Contact() {
   const [email, setEmail] = useState('');
   const [userName, setUserName] = useState('');
-  const [password, setPassword] = useState('')
+  const [message, setMessage] = useState('')
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleInputChange = (e) => {
@@ -16,8 +17,8 @@ export default function Contact() {
       setEmail(inputValue);
     } else if (inputType === 'userName') {
       setUserName(inputValue);
-    } else if (inputType === 'password') {
-      setPassword(inputValue)
+    } else if (inputType === 'message') {
+      setMessage(inputValue)
     }
   };
 
@@ -28,23 +29,18 @@ export default function Contact() {
       setErrorMessage('Email or username is invalid');
       return;
     }
-    if (!checkPassword(password)) {
-      setErrorMessage(
-        `Choose a more secure password for the account: ${userName}`
-      );
-      return;
-    }
 
     setUserName('');
-    setPassword('');
+    setMessage('');
     setEmail('');
     alert(`Hello ${userName}`);
   };
 
   return (
     <div>
-      <p>Hello {userName}</p>
-      <form className="form">
+      <div className='form-container'>
+      <form id="contact" className="form">
+      <h3>Contact me</h3>
         <input
           value={email}
           name="email"
@@ -60,13 +56,14 @@ export default function Contact() {
           placeholder="username"
         />
         <input 
-          value={password}
-          name='password'
+          value={message}
+          name='message'
           onChange={handleInputChange}
-          type='text'
-          placeholder='password'
+          type='textarea'
+          tabindex="5"
+          placeholder='message'
         />
-        <button type="button" onClick={handleFormSubmit}>
+        <button id="contact-submit" type="submit" onClick={handleFormSubmit}>
           Submit
         </button>
       </form>
@@ -76,6 +73,8 @@ export default function Contact() {
         </div>
       )}
     </div>
+      </div>
+      
     
   );
 }

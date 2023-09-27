@@ -1,0 +1,20 @@
+.resume-title {
+  color: var(--red);
+  padding: 1rem 3rem;
+}
+
+.wrapper-resume-text {
+  text-align: justify;
+  font-size: 4.3vw;
+}
+
+.resume-text {
+  color: var(--green);
+  padding: 1rem 3rem;
+}
+
+wrapper-resume-text:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
