@@ -13,7 +13,7 @@
   padding: 1rem 3rem;
 }
 
-wrapper-resume-text:after {
+.wrapper-resume-text:after {
   content: '';
   display: inline-block;
   width: 100%;

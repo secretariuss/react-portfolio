@@ -9,7 +9,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 React portfolio. 
 
 ## Github reference
-https://github.com/secretariuss/text-editor
+https://github.com/secretariuss/react-portfolio
 
 ## Heroku deploy reference
 https://
@@ -18,8 +18,7 @@ https://
 
 The following scrshots shows the web application's:
 
-![scrshot1](./assets/images/editor.png)
-![scrshot2](./assets/images/editor2.png)
+![scrshot1](./assets/images/scr1.jpg)
 
 ## Acceptance Criteria
 GIVEN a single-page application portfolio for a web developer
