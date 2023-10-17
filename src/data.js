@@ -48,6 +48,13 @@ const data = [
         titleColor: "var(--orange)",
         titleText: "Weather dashboard"
     },
+    {
+        id: 8,
+        imgSrc: "var(--img8)",
+        url: "https://salty-temple-29543-b70342d34fb8.herokuapp.com/", 
+        titleColor: "var(--yellow)",
+        titleText: "HealthSensO"
+    },
   ];
   
   export default data;
